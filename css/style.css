@@ -1,5 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Merriweather:300,300italic);
+@import 'https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,500,900';
 
+*, body {
+font-family: 'Work Sans', sans-serif;
+}
+
+body {
+  background-color: white !important;
+}
 
 .menu p{
     margin: 45px 45px 45px 45px;
@@ -9,23 +17,24 @@
 }
 
 .header{
-    margin: 82px 0 82px 0;
-    text-align: center;
+    margin-top: 82px;
+     text-align: center;
 }
 
 h1 {
-  font-weight: 100;    
+  font-weight: 200;    
   font-size: 42px;
   letter-spacing: .2em;
   line-height: 1em;    
   text-transform: uppercase;
   margin: 0 0 9 0;
-  margin-bottom: 6px;    
-  text-align: center;    
+  margin-bottom: 5px;   
+  text-align: center; 
+  color: black;   
 }
 
 h2 {
-  font-weight: 200;    
+  font-weight: 300;    
   font-size: 21px;
   letter-spacing: .55em;
   line-height: 1em;        
@@ -49,6 +58,7 @@ p {
     font-weight: 100;    
     font-size: 15px;
     line-height: 1.9em; 
+    letter-spacing: .1px;
 }
 
 li {
@@ -61,6 +71,7 @@ font-family: 'Merriweather', serif;
 p.lede {
     font-size: 17px;
     color: #808080;
+    font-style: italic;
 }
 
 p.contact {
@@ -76,7 +87,7 @@ a:hover {
 }
 
 a.header-link {
-  font-weight: 200;    
+  font-weight: 300;    
   font-size: 14px;
   letter-spacing: .6em;
   text-transform: uppercase;
@@ -94,7 +105,7 @@ a.header-link {
 }
 
 .number{    
-  font-weight: 600;    
+  font-weight: 900;    
   font-size: 110px;
   letter-spacing: 0;
   color: #f0f0f0;
@@ -103,7 +114,7 @@ a.header-link {
 }    
 
 .link-text h2{
-    font-weight: 100; 
+    font-weight: 200; 
     font-size: 52px;
     letter-spacing: .12em;
     line-height: .95em;        
@@ -134,6 +145,7 @@ a.header-link {
 .image-link {
     padding: 120px 0 0 0 !important;
     overflow: hidden;
+    transition: .2s;
 }
 
 .image-link img {
@@ -141,6 +153,11 @@ a.header-link {
     height: auto;
 }
 
+/*.image-link:hover{
+    transform: translateY(-10px);
+    transition: .2s;
+  }
+*/
 
 .link-hover {
     background: rgba(255,170,23,0.91);
@@ -252,7 +269,7 @@ margin-right: 8px;
 }
 .footer p {
     color: #bebfbf;  
-    font-weight: 100; 
+    font-weight: 300; 
     letter-spacing: .1em;
 }
 
@@ -402,7 +419,7 @@ h1.title {
     color: #ffab17;
     font-size: 58px;
     text-align: left;
-    font-weight: 100;
+    font-weight: 200;
     line-height: 1em;
     letter-spacing: .15em;
     margin-left: -6px;
@@ -483,18 +500,22 @@ margin: 92px 0 42px 0;
 
 /*–––––––––––––––––––––––––––––––––––––––resume styles––––––––––––––––––––––––––––––––––––––– */
 
+.resume-top {
+  margin-top: 82px;
+}
+
+
 .resume h2{
-    font-weight: 100;
     font-size: 27px;
     text-align: left;
-    letter-spacing: .35em;
+    letter-spacing: 0.27em;
     margin: 0 0 24px 0;
 }
 
 .resume h3{
-    font-weight: 600;
+    font-weight: 500;
     font-size: 15px;
-    letter-spacing: .15em;
+    letter-spacing: .12em;
     color: #ffab17;
     margin-left: 0;
 }
@@ -509,7 +530,7 @@ margin: 92px 0 42px 0;
 }
 
 .date{
-    font-weight: 300;
+    font-weight: 500;
     float: right;
 }
 
@@ -528,7 +549,7 @@ margin: 92px 0 42px 0;
 
 .resume li { 
     padding-left: 18px;
-    padding-bottom: 9px;
+    padding-bottom: 12px;
     text-indent: -.7em;
     line-height: 1.7em;
 }
