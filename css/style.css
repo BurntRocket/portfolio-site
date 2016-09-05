@@ -148,6 +148,19 @@ a.header-link {
     transition: .2s;
 }
 
+@media screen and (max-width: 992px) {
+  .image-link {
+    padding: 22px 0 0 0 !important;
+  }
+  .number {
+    margin: 0px 0 -107px -33px;
+  }
+  .text-group {
+    margin-top: 0;
+  } 
+}
+
+
 .image-link img {
     width:100%;
     height: auto;
@@ -342,7 +355,7 @@ margin-bottom: 20px;
 
 .worldbank {
 padding:0 !important;
-Margin:0!important;    
+margin:0!important;    
 }
 
 .worldbank img{
