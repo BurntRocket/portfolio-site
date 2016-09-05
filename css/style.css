@@ -109,8 +109,8 @@ a.header-link {
   font-size: 110px;
   letter-spacing: 0;
   color: #f0f0f0;
-  Margin: 50px 0 -107px -50px;
-  font-family: roboto;
+  margin: 50px 0 -107px -50px;
+  font-family: 'Work Sans', sans-serif;
 }    
 
 .link-text h2{
