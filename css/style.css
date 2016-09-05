@@ -148,28 +148,6 @@ a.header-link {
     transition: .2s;
 }
 
-@media screen and (max-width: 600px ) {
-
-  .header h2{
-    font-weight: 500;
-    font-size: 13px;
-    letter-spacing: 0.59em;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  .image-link {
-    padding: 22px 0 0 0 !important;
-  }
-  .number {
-    margin: 0px 0 -107px -33px;
-  }
-  .text-group {
-    margin-top: 0;
-  } 
-}
-
-
 .image-link img {
     width:100%;
     height: auto;
@@ -601,4 +579,26 @@ padding-bottom: 112px;
 
 .sr {
     margin-bottom: 50px;
+}
+
+
+@media screen and (max-width: 600px ) {
+
+  .header h2{
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0.59em;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .image-link {
+    padding: 22px 0 0 0 !important;
+  }
+  .number {
+    margin: 0px 0 -107px -33px;
+  }
+  .text-group {
+    margin-top: 0;
+  } 
 }
