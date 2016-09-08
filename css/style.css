@@ -411,6 +411,11 @@ max-height: 500px;
 .bb-hero{
   background-image: url(../images/boombox/Page1@2x.jpg);
 }
+.msix-hero{
+  background-image: url(../images/msix/wheat.jpg);
+}
+
+
 .photobox {
   background-image: url(../images/boombox/instapics.jpg);
   max-height: 300px; 
