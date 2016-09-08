@@ -411,7 +411,30 @@ max-height: 500px;
 .bb-hero{
   background-image: url(../images/boombox/Page1@2x.jpg);
 }
+.photobox {
+  background-image: url(../images/boombox/instapics.jpg);
+  max-height: 300px; 
+  background-position: center;
+  background-size: cover;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+}
 
+.photocontainer {
+  min-height: 300px;
+}
+
+.parallax {
+    z-index: 0;
+  }
+.parallax-container {
+    height: 400px;
+    margin: 44px 0;
+  }
 
 .linder {
 margin-top: 35px;
@@ -648,6 +671,37 @@ padding-bottom: 112px;
     transition: .2s;
   }
 }
+
+.dload {
+    max-width: 183px;
+}
+
+.bblogo {
+  max-width: 428px;
+}
+
+.vidbottom {
+  margin: 0;
+  padding: 33px 0 66px 0;
+}
+
+.bbphones {
+  padding: 54px 0;
+}
+
+.download {
+  margin-bottom: 90px;
+}
+
+.download:hover {
+  opacity: .75;
+  transition: .2s; 
+}
+
+.bb {
+    padding: 60px 0 60 0 !important;
+}
+
 
 @media screen and (max-width: 992px) {
   .image-link {
