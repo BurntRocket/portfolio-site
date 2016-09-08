@@ -183,18 +183,17 @@ a.header-link {
 .link-hover h3{
     border: 2px solid white;
     border-radius: 3px;
-    color: white;   
-    padding: 12px 22px;
+    color: white;
+    padding: 12px 0;
     position: absolute;
     left: 0;
     right: 0;
     margin-top: 30%;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    top; 40% !important;
-    text-align: center;
+    width: 74%;
     letter-spacing: 3px;
+    text-align: center;
 }
 
 .link-hover h3:hover {
