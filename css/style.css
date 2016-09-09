@@ -160,7 +160,7 @@ a.header-link {
 */
 
 .link-hover {
-    background: rgba(255,170,23,0.91);
+    background: rgba(101, 101, 101, 0.91);
     width: 90%;
     height: 88%;
     margin: 4% 5% 4% 5%;
@@ -197,7 +197,7 @@ a.header-link {
 }
 
 .link-hover h3:hover {
-    background-color: rgba(255,255,255,0.6);
+    background-color: rgba(255,255,255,0.8);
     color: #6d6e71;
 }
 
