@@ -740,6 +740,8 @@ padding-bottom: 112px;
 
 .onboarding-con {
   background-image: url(../images/boombox/onboarding-bg.jpg);
+  background-size: cover;
+
 }
 
 .onboarding img{
